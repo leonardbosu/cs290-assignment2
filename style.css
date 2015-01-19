@@ -1,0 +1,46 @@
+table, th, td
+{
+	border: 1px solid black;
+}
+
+tbody tr:nth-child(even)
+{
+	background: lightBlue;
+}
+
+tbody tr:nth-child(odd)
+{
+	background: lightGreen;
+}
+tbody th 
+{
+	font-style: italic;
+}
+tbody tr td:nth-child(2)
+{
+	color: red;
+}
+tbody tr td:nth-child(4)
+{
+	color: blue;
+}
+dt:hover + dd
+{
+	background: purple;
+}
+div.outer-content
+{
+	align: center;
+	background-color: pink;
+	height: 100px;
+	width: 75%;
+}
+div.inner-content
+{
+	margin: 0 auto;
+	background-color: blue;
+	height: 60px;
+	width:75%;
+	padding: 10px;
+}
+;
